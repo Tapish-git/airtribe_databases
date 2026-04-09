@@ -20,8 +20,34 @@ Isolation: This property ensures that concurrent transactions do not interfere w
 
 Durability: This property ensures that once a transaction has been committed, it will remain so, even in the event of a system failure. The changes made by the transaction are permanently stored in the database and will not be lost.
 
----
+---------------------
 
 2. NoSQL Databases: These databases are designed for unstructured data and do not use the traditional table-based structure. Examples include MongoDB, Cassandra, and Redis.
 
+-----------------------
+
 3. Graph Databases: These databases are designed to represent and store data in the form of graphs, with nodes representing entities and edges representing relationships. Examples include Neo4j and Amazon Neptune.
+
+-----------------------
+
+Difference between SQL and NoSQL databases:
+| Feature             | SQL Databases                 | NoSQL Databases              |
+|---------------------|-------------------------------|------------------------------|
+| Data Model          | Relational (tables)           | Various (document, key-value, graph)--|
+| Schema              | Fixed schema                  | Dynamic schema               |
+| Scalability         | Vertical Scaling (scale-up)   | Horizontal Scaling (scale-out) |
+| Query Language      | SQL                           | Varies (e.g., MongoDB uses BSON) |
+| ACID Compliance     | Yes                           | Varies (some NoSQL databases may not fully support ACID) |
+| Use Cases           | Complex Queries, Transactions | Big Data, Real-time Web Apps, Flexible Schema |
+-----------------------
+
+#### Why do we need databases?
+Databases are essential for managing and organizing large amounts of data efficiently. They provide a structured way to store, retrieve, and manipulate data, which is crucial for various applications and industries.
+
+#### What is SQL?
+SQL (Structured Query Language) is a programming language used to manage and manipulate relational databases. It allows users to create, read, update, and delete data in a database. SQL is widely used for querying and managing data in relational database management systems (RDBMS).
+
+#### What is a DBMS?
+A DBMS (Database Management System) is software that provides an interface for users to interact with databases. It allows users to create, manage, and manipulate databases, as well as perform various operations such as querying, updating, and administering the database. Examples of DBMS include MySQL, PostgreSQL, Oracle, and MongoDB.
+
+
