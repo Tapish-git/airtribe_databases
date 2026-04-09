@@ -23,3 +23,5 @@ Durability: This property ensures that once a transaction has been committed, it
 ---
 
 2. NoSQL Databases: These databases are designed for unstructured data and do not use the traditional table-based structure. Examples include MongoDB, Cassandra, and Redis.
+
+3. Graph Databases: These databases are designed to represent and store data in the form of graphs, with nodes representing entities and edges representing relationships. Examples include Neo4j and Amazon Neptune.
